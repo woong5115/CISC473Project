@@ -34,7 +34,7 @@ def lowlight(image_path):
 
     DCE_net = model.enhance_net_nopool(scale_factor).to(device)
     DCE_net.load_state_dict(torch.load(
-        'snapshots_Zero_DCE++/Epoch99.pth', map_location=device))
+        'snapshots_Zero_DCE++/Epoch90.pth', map_location=device))
     start = time.time()
     enhanced_image, params_maps = DCE_net(data_lowlight)
 
