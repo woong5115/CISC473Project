@@ -5,6 +5,9 @@ reproduction gap, and two new training losses for Zero-DCE++ (Max-RGB-guided
 Dynamic Exposure Control and Ratio-Locking Spatial-Color Consistency) aimed at
 extremely dark and underwater scenes.
 
+Final report: [`final-report.pdf`](final-report.pdf) (LaTeX source:
+[`final-report.tex`](final-report.tex), figures in [`images/`](images/)).
+
 ## Reproduce all final-report results (one click)
 
 Open [`final/CISC473_final_experiments.ipynb`](final/CISC473_final_experiments.ipynb)
@@ -90,6 +93,7 @@ print(exp.evaluate(m, "dcepp", exp.sice_pairs(exp.prepare_sice())))
 ## Repository structure
 
 ```
+final-report.tex/.pdf   final report (figures in images/)
 final/        final-report experiments: exp.py (all code) + Colab notebook
 models/       original Zero-DCE and Zero-DCE++ code (midterm), with our fixes
 notebooks/    midterm notebooks
