@@ -1,0 +1,10 @@
+{
+ "psnr": 14.92314895351875,
+ "ssim": 0.5035989052772579,
+ "psnr_img_std": 4.255572669348089,
+ "n": 767,
+ "ms_per_img": 15.607953071594238,
+ "key": "E2_dcepp_s42",
+ "kind": "dcepp",
+ "weights": "base_dcepp_s42_e30_r256_ep30.pth"
+}
