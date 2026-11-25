@@ -1,0 +1,242 @@
+{
+ "E1_dce": {
+  "psnr": 15.934087394246976,
+  "ssim": 0.49740949702667,
+  "psnr_img_std": 3.4503832684792393,
+  "n": 767,
+  "ms_per_img": 64.29469585418701,
+  "key": "E1_dce",
+  "kind": "dce",
+  "weights": "Epoch99.pth"
+ },
+ "E1_dcepp": {
+  "psnr": 15.683124150659628,
+  "ssim": 0.5107940473962735,
+  "psnr_img_std": 4.796661698499766,
+  "n": 767,
+  "ms_per_img": 12.66932487487793,
+  "key": "E1_dcepp",
+  "kind": "dcepp",
+  "weights": "Epoch90.pth"
+ },
+ "E2_dcepp_s123": {
+  "psnr": 15.070765212217722,
+  "ssim": 0.5035670957533209,
+  "psnr_img_std": 4.280735761309841,
+  "n": 767,
+  "ms_per_img": 12.804627418518066,
+  "key": "E2_dcepp_s123",
+  "kind": "dcepp",
+  "weights": "base_dcepp_s123_e30_r256_ep30.pth"
+ },
+ "E2_dcepp_s42": {
+  "psnr": 14.92314895351875,
+  "ssim": 0.5035989052772579,
+  "psnr_img_std": 4.255572669348089,
+  "n": 767,
+  "ms_per_img": 15.607953071594238,
+  "key": "E2_dcepp_s42",
+  "kind": "dcepp",
+  "weights": "base_dcepp_s42_e30_r256_ep30.pth"
+ },
+ "E2_dcepp_s999": {
+  "psnr": 14.996205699485822,
+  "ssim": 0.5046193006269709,
+  "psnr_img_std": 4.343936079743541,
+  "n": 767,
+  "ms_per_img": 12.91191577911377,
+  "key": "E2_dcepp_s999",
+  "kind": "dcepp",
+  "weights": "base_dcepp_s999_e30_r256_ep30.pth"
+ },
+ "E3_dce": {
+  "psnr": 15.934087394246976,
+  "ssim": 0.49740949702667,
+  "psnr_img_std": 3.4503832684792393,
+  "n": 767,
+  "ms_per_img": 64.36777114868164,
+  "key": "E3_dce",
+  "kind": "dce",
+  "weights": "Epoch99.pth"
+ },
+ "E3_dcepp": {
+  "psnr": 16.0047315028128,
+  "ssim": 0.5083161517493058,
+  "psnr_img_std": 4.036078458262895,
+  "n": 767,
+  "ms_per_img": 12.816071510314941,
+  "key": "E3_dcepp",
+  "kind": "dcepp",
+  "weights": "Epoch99.pth"
+ },
+ "M_dce": {
+  "psnr": 12.348593190669504,
+  "ssim": 0.5309413301033945,
+  "psnr_img_std": 1.5327734311091157,
+  "n": 767,
+  "ms_per_img": 61.73264980316162,
+  "key": "M_dce",
+  "kind": "dce",
+  "weights": "Epoch99.pth"
+ },
+ "M_dcepp": {
+  "psnr": 9.244785071379766,
+  "ssim": 0.44432508468024495,
+  "psnr_img_std": 0.9988910246857406,
+  "n": 767,
+  "ms_per_img": 11.158943176269531,
+  "key": "M_dcepp",
+  "kind": "dcepp",
+  "weights": "Epoch90.pth"
+ },
+ "P1_dcepp_s123": {
+  "psnr": 15.196251285450305,
+  "ssim": 0.5283671203870334,
+  "psnr_img_std": 4.3226004018951585,
+  "n": 767,
+  "ms_per_img": 14.353632926940918,
+  "key": "P1_dcepp_s123",
+  "kind": "dcepp",
+  "weights": "base_dcepp_s123_e30_r256_ep30.pth"
+ },
+ "P1_dcepp_s42": {
+  "psnr": 15.04268030968102,
+  "ssim": 0.5283659232464227,
+  "psnr_img_std": 4.294041215177151,
+  "n": 767,
+  "ms_per_img": 15.462040901184082,
+  "key": "P1_dcepp_s42",
+  "kind": "dcepp",
+  "weights": "base_dcepp_s42_e30_r256_ep30.pth"
+ },
+ "P1_dcepp_s999": {
+  "psnr": 15.118171862936022,
+  "ssim": 0.5294299143549646,
+  "psnr_img_std": 4.385402664722611,
+  "n": 767,
+  "ms_per_img": 14.289617538452148,
+  "key": "P1_dcepp_s999",
+  "kind": "dcepp",
+  "weights": "base_dcepp_s999_e30_r256_ep30.pth"
+ },
+ "P2_dcepp_s123": {
+  "psnr": 15.13802085700303,
+  "ssim": 0.5247502918602944,
+  "psnr_img_std": 4.316331296610201,
+  "n": 727,
+  "ms_per_img": 13.916850090026855,
+  "key": "P2_dcepp_s123",
+  "kind": "dcepp",
+  "weights": "base_dcepp_s123_e30_r256_ep30.pth"
+ },
+ "P2_dcepp_s42": {
+  "psnr": 14.985687673336507,
+  "ssim": 0.524778268725981,
+  "psnr_img_std": 4.289152539428676,
+  "n": 727,
+  "ms_per_img": 15.769124031066895,
+  "key": "P2_dcepp_s42",
+  "kind": "dcepp",
+  "weights": "base_dcepp_s42_e30_r256_ep30.pth"
+ },
+ "P2_dcepp_s999": {
+  "psnr": 15.064317625128336,
+  "ssim": 0.5258585306502003,
+  "psnr_img_std": 4.383971290533096,
+  "n": 727,
+  "ms_per_img": 14.175653457641602,
+  "key": "P2_dcepp_s999",
+  "kind": "dcepp",
+  "weights": "base_dcepp_s999_e30_r256_ep30.pth"
+ },
+ "SICE_prop_dyn_s123": {
+  "psnr": 13.492045079595892,
+  "ssim": 0.43834212579643156,
+  "psnr_img_std": 2.535047269144468,
+  "n": 767,
+  "ms_per_img": 14.028072357177734,
+  "key": "SICE_prop_dyn_s123",
+  "kind": "dcepp",
+  "weights": "prop_dyn_s123_e30_r256_ep30.pth"
+ },
+ "SICE_prop_dyn_s42": {
+  "psnr": 13.516888170871395,
+  "ssim": 0.4425138881598136,
+  "psnr_img_std": 2.503639797207293,
+  "n": 767,
+  "ms_per_img": 14.517664909362793,
+  "key": "SICE_prop_dyn_s42",
+  "kind": "dcepp",
+  "weights": "prop_dyn_s42_e30_r256_ep30.pth"
+ },
+ "SICE_prop_dyn_s999": {
+  "psnr": 13.57405992220261,
+  "ssim": 0.4427338630817618,
+  "psnr_img_std": 2.5584768384459387,
+  "n": 767,
+  "ms_per_img": 13.087987899780273,
+  "key": "SICE_prop_dyn_s999",
+  "kind": "dcepp",
+  "weights": "prop_dyn_s999_e30_r256_ep30.pth"
+ },
+ "SICE_prop_full_s123": {
+  "psnr": 13.121464092083956,
+  "ssim": 0.41624419424465,
+  "psnr_img_std": 2.6307047929531295,
+  "n": 767,
+  "ms_per_img": 14.007091522216797,
+  "key": "SICE_prop_full_s123",
+  "kind": "dcepp",
+  "weights": "prop_full_s123_e30_r256_ep30.pth"
+ },
+ "SICE_prop_full_s42": {
+  "psnr": 13.197777579156337,
+  "ssim": 0.4199879579798897,
+  "psnr_img_std": 2.6189574247554828,
+  "n": 767,
+  "ms_per_img": 14.725208282470703,
+  "key": "SICE_prop_full_s42",
+  "kind": "dcepp",
+  "weights": "prop_full_s42_e30_r256_ep30.pth"
+ },
+ "SICE_prop_full_s999": {
+  "psnr": 13.253860783072751,
+  "ssim": 0.42299987533628297,
+  "psnr_img_std": 2.6104059165572364,
+  "n": 767,
+  "ms_per_img": 14.63162899017334,
+  "key": "SICE_prop_full_s999",
+  "kind": "dcepp",
+  "weights": "prop_full_s999_e30_r256_ep30.pth"
+ },
+ "SICE_prop_rl_s123": {
+  "psnr": 15.19506391256135,
+  "ssim": 0.4914230331433305,
+  "psnr_img_std": 3.9515817723600573,
+  "n": 767,
+  "ms_per_img": 13.195395469665527,
+  "key": "SICE_prop_rl_s123",
+  "kind": "dcepp",
+  "weights": "prop_rl_s123_e30_r256_ep30.pth"
+ },
+ "SICE_prop_rl_s42": {
+  "psnr": 15.217828823394312,
+  "ssim": 0.49224244303445097,
+  "psnr_img_std": 3.9232015854501983,
+  "n": 767,
+  "ms_per_img": 13.782620429992676,
+  "key": "SICE_prop_rl_s42",
+  "kind": "dcepp",
+  "weights": "prop_rl_s42_e30_r256_ep30.pth"
+ },
+ "SICE_prop_rl_s999": {
+  "psnr": 15.29946479119558,
+  "ssim": 0.4952718739422713,
+  "psnr_img_std": 4.14313344476129,
+  "n": 767,
+  "ms_per_img": 13.07976245880127,
+  "key": "SICE_prop_rl_s999",
+  "kind": "dcepp",
+  "weights": "prop_rl_s999_e30_r256_ep30.pth"
+ }
+}

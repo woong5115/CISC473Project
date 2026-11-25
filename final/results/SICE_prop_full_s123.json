@@ -1,0 +1,10 @@
+{
+ "psnr": 13.121464092083956,
+ "ssim": 0.41624419424465,
+ "psnr_img_std": 2.6307047929531295,
+ "n": 767,
+ "ms_per_img": 14.007091522216797,
+ "key": "SICE_prop_full_s123",
+ "kind": "dcepp",
+ "weights": "prop_full_s123_e30_r256_ep30.pth"
+}

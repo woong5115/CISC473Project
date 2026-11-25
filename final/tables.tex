@@ -1,0 +1,36 @@
+% ---- Reproduction gap table (PSNR) ----
+M' & 12.35 & 9.24 \\
+E1 & 15.93 & 15.68 \\
+E2 & -- & 15.00 $\pm$ 0.06 \\
+E3 & 15.93 & 16.00 \\
+P1 & -- & 15.12 $\pm$ 0.06 \\
+P2 & -- & 15.06 $\pm$ 0.06 \\
+T1 & -- & -- \\
+T2 & -- & -- \\
+
+% ---- Reproduction gap table (SSIM) ----
+M' & 0.531 & 0.444 \\
+E1 & 0.497 & 0.511 \\
+E2 & -- & 0.504 $\pm$ 0.000 \\
+E3 & 0.497 & 0.508 \\
+P1 & -- & 0.529 $\pm$ 0.001 \\
+P2 & -- & 0.525 $\pm$ 0.001 \\
+T1 & -- & -- \\
+T2 & -- & -- \\
+
+% ---- Main results table: SICE PSNR, SICE SSIM, UIEB PSNR, UIEB SSIM ----
+Zero-DCE (our repro.) & -- & -- & -- & -- \\
+Zero-DCE++ (our repro.) & 15.00 $\pm$ 0.06 & 0.504 $\pm$ 0.000 & -- & -- \\
+\textbf{Ours (proposed)} & \textbf{13.19 $\pm$ 0.05} & \textbf{0.420 $\pm$ 0.003} & -- & -- \\
+
+% ---- Ablation table (UIEB PSNR, UIEB SSIM); SICE PSNR given as a comment ----
+Full model (ours) & \checkmark & \checkmark & -- & -- \\
+w/o Ratio-Lock & \checkmark & $\times$ & -- & -- \\
+w/o Dyn.\ Exp. & $\times$ & \checkmark & -- & -- \\
+Baseline (Zero-DCE++) & $\times$ & $\times$ & -- & -- \\
+% SICE PSNR, full: 13.19 $\pm$ 0.05
+% SICE PSNR, dyn: 13.53 $\pm$ 0.03
+% SICE PSNR, rl: 15.24 $\pm$ 0.04
+
+% Speed on 1200x900 SICE images: Zero-DCE 64.4 ms, Zero-DCE++ 12.8 ms -> Zero-DCE++ is 5.0x faster
+% Settings: seeds [42, 123, 999], epochs 100, E_min 0.4, E_max 0.7, W_RL 50.0

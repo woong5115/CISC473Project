@@ -80,13 +80,17 @@ correctly raises PSNR from 12.35 → 15.93 dB (Zero-DCE) and 9.24 → 15.68 dB
 - Midterm checkpoints: `models/Zero-DCE/Zero-DCE_code/snapshots/Epoch99.pth`
   (identical to the authors' release) and
   `models/Zero-DCE_extension/Zero-DCE++/snapshots_Zero_DCE++/Epoch90.pth`.
-- Final-report models are saved by the notebook to `My Drive/CISC473_final/models/`
-  (e.g. `prop_rl_s42_e30_r256_ep30.pth`, ~50 KB each; copies are also in `final/models/` if uploaded). To regenerate them, run the
-  notebook (about 10 min per model on a T4). To evaluate a saved model:
+- Final-report models (12 = 4 configurations × 3 seeds) are in
+  [`final/models/`](final/models/), e.g. `prop_rl_s42_e30_r256_ep30.pth`
+  (`base` = Zero-DCE++ baseline, `prop_rl` / `prop_dyn` / `prop_full` = proposed losses).
+  Their evaluation results are in [`final/results/`](final/results/) (one JSON per
+  experiment, also merged in `final/all_results.json`) and the table rows in
+  [`final/tables.tex`](final/tables.tex). To regenerate them, run the notebook
+  (about 10 min per model on a T4). To evaluate a saved model:
 
 ```python
 import exp
-m = exp.load_trained("dcepp", "path/to/model.pth")
+m = exp.load_trained("dcepp", "final/models/prop_rl_s42_e30_r256_ep30.pth")
 print(exp.evaluate(m, "dcepp", exp.sice_pairs(exp.prepare_sice())))
 ```
 
@@ -94,7 +98,8 @@ print(exp.evaluate(m, "dcepp", exp.sice_pairs(exp.prepare_sice())))
 
 ```
 final-report.tex/.pdf   final report (figures in images/)
-final/        final-report experiments: exp.py (all code) + Colab notebook
+final/        final-report experiments: exp.py (all code), Colab notebook,
+              trained models (models/), results (results/, all_results.json, tables.tex)
 models/       original Zero-DCE and Zero-DCE++ code (midterm), with our fixes
 notebooks/    midterm notebooks
 images/       figures used in the reports
