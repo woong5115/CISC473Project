@@ -1,0 +1,7 @@
+# Final-report experiments (final/exp.py). Tested on Google Colab (Python 3.11+, CUDA, T4 GPU)
+# and locally on CPU with torch 2.15, numpy 2.5, opencv-python 5.0, scikit-image 0.26.
+torch>=2.3          # torch.amp.GradScaler("cuda") needs >= 2.3
+numpy>=1.24
+opencv-python>=4.8
+scikit-image>=0.21  # only used to check the GPU SSIM implementation
+gdown>=5.0          # optional: SICE download from Google Drive
